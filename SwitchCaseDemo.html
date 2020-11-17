@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        let text;
+        alert("Date : "+new Date().getDate());
+        switch(new Date().getDate()%7)
+        {
+            case 1:
+                text = 'Sunday';
+                break;
+            case 2:
+                text = 'Monday';
+                break;
+            case 3:
+                text = 'Tuesday';
+                break;
+            case 4:
+                text = 'Wednesday';
+                break;
+            case 5:
+                text = 'Thursday';
+                break;
+            case 6:
+                text = 'Friday';
+                break;
+            case 0:
+                text = 'Saturday';
+                break;
+            default:
+                text='Error';
+                break;
+        }
+        alert("Day : "+text);
+    </script>
+</html>
