@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        let allAnimal="";
+        let i=0;
+        let animals = ["Dog","Cat","Pig","Elephant"];
+
+        do
+        {
+            allAnimal +=  animals[i++]+", ";
+        }while(i<animals.length);
+            
+        alert("All Animals are "+allAnimal.slice(0,-2));
+    </script>
+</html>
